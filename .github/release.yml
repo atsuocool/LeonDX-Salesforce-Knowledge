@@ -1,0 +1,20 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+  categories:
+    - title: New documentation
+      labels:
+        - documentation
+        - enhancement
+    - title: Corrections
+      labels:
+        - bug
+        - fix
+    - title: Repository maintenance
+      labels:
+        - maintenance
+        - dependencies
+    - title: Other changes
+      labels:
+        - "*"
