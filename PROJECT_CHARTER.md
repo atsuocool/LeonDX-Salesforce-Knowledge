@@ -109,7 +109,7 @@ flowchart LR
 
 マージ後の標準的な情報経路は、次のとおりとする。
 
-**GitHub → Obsidian → LeonDX AI Sync → Open WebUI**
+### GitHub → Obsidian → LeonDX AI Sync → Open WebUI
 
 ## 6. Approval Policy
 
@@ -117,7 +117,7 @@ flowchart LR
 
 承認フローは次の順序を厳守する。
 
-**Draft → Review → Atsuo Approval → Merge → AI Sync**
+### Draft → Review → Atsuo Approval → Merge → AI Sync
 
 - Pull Requestの作成は承認を意味しない。
 - CIの成功は品質確認の一部であり、Atsuoの承認を代替しない。
