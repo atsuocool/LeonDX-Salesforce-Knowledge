@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -euo pipefail
+
+CALL_LOG="__MOCK_CALL_LOG__"
+
+if [[ "${1:-}" == "sync" && "${2:-}" == "--help" ]]; then
+  printf 'Usage: leondx-ai-sync sync [--file PATH]\n'
+  printf '  --file PATH  Synchronize one Markdown file\n'
+  exit 0
+fi
+
+printf '%s\n' "$*" >> "${CALL_LOG}"
+
+if [[ "${1:-}" == "sync" ]]; then
+  exit "${MOCK_SYNC_EXIT:-0}"
+fi
+
+if [[ "${1:-}" == "status" ]]; then
+  printf 'mock status: synchronized\n'
+  exit 0
+fi
+
+exit 64

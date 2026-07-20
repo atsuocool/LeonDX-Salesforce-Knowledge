@@ -34,5 +34,10 @@ jobs:
             --offline
             --include-fragments
             --root-dir "$(pwd)"
+            --exclude-path '(^|/)\.git(/|$)'
+            --exclude-path '(^|/)node_modules(/|$)'
+            --exclude-path '(^|/)vendor(/|$)'
+            --exclude-path '(^|/)\.obsidian(/|$)'
             './**/*.md'
           fail: true
+          failIfEmpty: false
