@@ -27,6 +27,11 @@ jobs:
             --include-fragments
             --root-dir "$(pwd)"
             --accept 200..=299,429
+            --exclude-path '(^|/)\.git(/|$)'
+            --exclude-path '(^|/)node_modules(/|$)'
+            --exclude-path '(^|/)vendor(/|$)'
+            --exclude-path '(^|/)\.obsidian(/|$)'
             './**/*.md'
           fail: true
+          failIfEmpty: false
           token: ${{ secrets.GITHUB_TOKEN }}
