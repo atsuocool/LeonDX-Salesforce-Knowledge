@@ -594,9 +594,9 @@ Salesforce Customer 360 Platform上で健全なソリューションを設計・
 - 技術判断を、事業成果、組織能力、採用、ガバナンス、測定へつなげる。
 - パターンを盲目的に適用せず、文脈、選択肢、影響、決定理由を残す。
 
-公式の自己学習には、Salesforce Trailheadの
-[Salesforce Well-Architected Framework](https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected)
-を利用できる。
+公式の自己学習には、Salesforce Architectsの
+[Salesforce Well-Architected Overview](https://architect.salesforce.com/docs/architect/well-architected/guide/overview.html)
+を起点として、各領域のガイダンスとパターンを確認できる。
 
 ## 13. RAG Keywords
 
@@ -671,8 +671,4 @@ Salesforceアーキテクチャ、Well-Architected、アーキテクチャ評価
 6. **Patterns Explorer | Well-Architected Tools**
    - Publisher: Salesforce Architects
    - URL: <https://architect.salesforce.com/docs/architect/well-architected-tools/guide/patterns>
-   - Accessed: 2026-07-20
-7. **Salesforce Well-Architected Framework**
-   - Publisher: Salesforce Trailhead
-   - URL: <https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected>
    - Accessed: 2026-07-20
